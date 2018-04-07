@@ -7,12 +7,12 @@ var gg1 = new JustGage({
     hideInnerShadow: true,
     value: 0,
     levelColors: [
-                '#FFFF00',
+                '#1200ff',
                 '#00ff00',
-                '#1200ff'
+                '#FFFF00'
             ],
     customSelctors: [{
-        color: '#FFFF00',
+        color: '#1200ff',
         lo: 0,
         hi: 20
             }, {
@@ -20,7 +20,7 @@ var gg1 = new JustGage({
         lo: 21,
         hi: 60
             }, {
-        color: '#1200ff',
+        color: '#FFFF00',
         lo: 61,
         hi: 100
             }]
