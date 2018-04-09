@@ -41,6 +41,14 @@ function update() {
         $('#val').addClass('alert-success');
         $('#val').text('Actualizat cu succes');
         console.log('OK');
+    
+        if(data>50){
+            $('#alert').addClass('alert-danger');
+            $('#alert').text('Plantuta are nevoie de apa!');
+        } else {
+            $('#alert').removeClass('alert-danger');
+        };
+        
     }).fail(function () {
         $('#val').removeClass('alert-success');
         $('#val').removeClass('alert-warning');
