@@ -42,7 +42,7 @@ function update() {
         $('#val').text('Actualizat cu succes');
         console.log('OK');
     
-        if(data>50){
+        if(value>50){
             $('#alert').addClass('alert-danger');
             $('#alert').text('Plantuta are nevoie de apa!');
         } else {
